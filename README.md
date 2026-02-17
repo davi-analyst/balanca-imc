@@ -1,3 +1,15 @@
 # balanca-imc 
 
-Calculadora simples de IMC (Use ponto . para separar o número de metro para centímetro)
+Calculadora simples de IMC feito com Javascript, HTML e CSS (inline)
+
+# O que é IMC? 
+
+IMC é uma sigla e significa “Índice de Massa Corporal”. 
+
+O IMC é uma das formas de avaliação corporal recomendada pela OMS (Organização Mundial de Saúde)
+
+# Como rodar em minha máquina?
+
+Copie o código HTML, cole em um compilador online e execute.
+
+insira os valores que deseja (separando por um ponto { . } entre as casas decimais) e clique em "Calcular"
