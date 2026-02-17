@@ -10,6 +10,8 @@ O IMC é uma das formas de avaliação corporal recomendada pela OMS (Organizaç
 
 # Como rodar em minha máquina?
 
+Acesse: (davi-analyst.github.io/balanca-imc)
+
 Copie o código HTML, cole em um compilador online e execute.
 
 insira os valores que deseja (separando por um ponto { . } entre as casas decimais) e clique em "Calcular"
