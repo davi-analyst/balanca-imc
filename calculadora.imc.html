@@ -18,13 +18,13 @@
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%, -50%);
-                border: 2px solid #ccc;
-                border-radius: 5px;
+                border: 1px solid #ccc;
+                border-radius: 25px;
                 background-color: #00000031;
                 font-family: Helvetica, sans-serif;
                 color: rgb(255, 255, 255);
                 width: 400px;
-                min-height: 300px;
+                min-height: 350px;
             }
             button {
                 
@@ -47,12 +47,14 @@
         <h1>Calculadora de IMC</h1>
         <div class="container">
             <div class="primeiro-passo">
-                <h2>Insira suas medidas abaixo:</h2>
+            <br> 
+                <h2 style="margin-bottom: 5px; font-size: 25px;">Insira suas medidas abaixo</h2>
+                <h3 style="margin-top: 0; margin-bottom: 45px; font-weight: normal; font-size: 14px; color: #ccc;">Use ponto ( . ) para separar decimais</h3>
                 <p id="mensagem-erro" style="color: #ff4444; font-weight: bold; margin-top: 10px;"></p>
-            <label for="peso">Digite seu peso:</label>
+            <label for="peso">Digite seu peso</label>
             <input type="number" id="peso" placeholder="kg" step="0.1">
             <br><br>
-            <label for="altura">Digite sua altura:</label>
+            <label for="altura">Digite sua altura</label>
             <input type="number" id="altura" placeholder="metros" step="0.01">
             <br><br>
 
@@ -60,8 +62,9 @@
             <button>Calcular IMC</button>
         </div>
         <div class="segundo-passo">
-            <h3>Resultado:</h3>
+            <h3>Resultado</h3>
             <p id="resultado"></p>
+        <br><br>    
 
 </body>
 <script>
